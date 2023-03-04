@@ -9,13 +9,19 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "*"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "jifri-sample-1.helloWorld",
         "title": "Hello World"
+      },
+      {
+        "command": "jifri-sample-1.showGithubProfile",
+        "title": "Show Github Profile"
       }
     ]
   },
